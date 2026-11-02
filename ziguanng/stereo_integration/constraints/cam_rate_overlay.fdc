@@ -1,0 +1,21 @@
+# CANDIDATE ONLY (CAM_RATE_OVERLAY=1): camera clock -> pixel clock crossings of
+# cam_rate_overlay (m0 = camera 0, m1 = camera 1), and the pixel-clock gate into
+# the camera domains.
+#  * gate (pixel clock) and tog (camera clock) are single bits into two-stage
+#    synchronizers: only the first stage is a false path.
+#  * cyc_hold is stable for 1 ms when sampled (gate_sample, middle of the low
+#    gate half); row_hold is stable for a camera frame and is sampled two
+#    pixel clocks after the synchronized toggle.  Bound the routes to 8 ns, no
+#    hold check.
+set_false_path -to [get_pins -hierarchical {cam_rate.u_cam_rate_overlay/m0/gate_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {cam_rate.u_cam_rate_overlay/m1/gate_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {cam_rate.u_cam_rate_overlay/m0/tog_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {cam_rate.u_cam_rate_overlay/m1/tog_meta*/D*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/cyc_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/khz*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/cyc_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/khz*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/row_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/rows*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/row_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/rows*}]
+set_false_path -hold -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/cyc_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/khz*}]
+set_false_path -hold -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/cyc_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/khz*}]
+set_false_path -hold -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/row_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m0/rows*}]
+set_false_path -hold -from [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/row_hold*}] -to [get_cells -hierarchical {cam_rate.u_cam_rate_overlay/m1/rows*}]

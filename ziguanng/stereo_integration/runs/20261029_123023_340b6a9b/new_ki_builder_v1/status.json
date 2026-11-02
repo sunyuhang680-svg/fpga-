@@ -1,0 +1,111 @@
+{
+  "status": "PASSED_SCOPED_NEW_KI_BUILDER",
+  "scope": "actual imu_ray_homography RTL vs bit-exact integer oracle using each new frozen KI; builder component only, no crop/fit rerun, no full pipeline or board acceptance",
+  "original_test_script_sha256": "84839c2a615ab50bb71be06971c1148c9a450fdc2b9f2fbef65a371921a90bcb",
+  "adapted_test_script_sha256": "a78934c927402eab2567a663f9ba8489e009b64d52f1bfa45ae5b0c3fec103bc",
+  "adaptation": "Only add --ray argument, load that ray instead of old left config, and import project scripts from new task directory. Case generation/oracle/bench/tool commands unchanged.",
+  "candidate_artifact_manifest_sha256": "f659c1517685cd93760553d114ec9db3f6db0a7e61db4baffe7a33deaf1540fe",
+  "eyes": {
+    "left": {
+      "status": "passed",
+      "ray_path": "D:\\虚拟C盘\\ziguanng\\stereo_integration\\runs\\20261029_123023_340b6a9b\\raw_calibration_candidate_v1\\left_output_ray.npy",
+      "ray_file_sha256": "9697a22c6186f18afb687acc8ff5fe0f2c6452d095d29a900d709b64137f2876",
+      "ki_q30": [
+        [
+          1903955,
+          0,
+          -644081191
+        ],
+        [
+          0,
+          957980,
+          -341114254
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "configuration_sha256": "02431a7f263f7ffe175fe2df7f90edfff2014091bfa4a3ada2b03e83ecd1e1a3",
+      "actual_native_exit_code": 0,
+      "compile_errors_zero": true,
+      "all_pass_pose": true,
+      "no_error_or_fatal_or_fail_markers": true,
+      "native_status": {
+        "status": "passed",
+        "cases": 132,
+        "rtl_integer_tolerance_lsb": 0,
+        "integer_vs_float_max_lsb": 4,
+        "source_sha256": {
+          "rtl\\imu_ray_homography.v": "d809bde7403ffe5a87bc13e95bbe8eca869f4b920ca8750d15e6f79a7ad9be27",
+          "sim\\tb_pose_homography.sv": "41581261edb6f2827b8fe9a313326cb30b7404528c7b40325d403fd3b8852833"
+        },
+        "summary": [
+          "# ALL_PASS_POSE cases=132 coefficients=597"
+        ]
+      },
+      "evidence_sha256": {
+        "compile.do": "dc4f7b3e329d28598e50d663f2f0601b3642d87bf3d3cf1971d56ed5be56c249",
+        "compile.log": "ceb54bfc8bc14f951a68ae8d088ab7f107fdc64dc54a300716267dc49b9c119d",
+        "modelsim.ini": "d96e1da9c9c0a14c5f1739f0ce626214a4c4e790952e6634aa2f2cf4b20cff98",
+        "pose_vectors.hex": "2f5dad4010f2bccd36abd6859bb9656224d10871d25911fb3eb55ca8f756e11c",
+        "simulation.log": "8ddbb23069ebbd1426216504e6f788732c8aafa97b00c4367502f2d6ca8f8ef2",
+        "status.json": "092ae8f67ec0f6515f9410ede30374311980efef44d0f75ebce896277ab99b1a",
+        "transcript": "bea3eb9e99c8a7f59f35a66da92c74b764517653b5f484c0ce9449007e005d9e"
+      }
+    },
+    "right": {
+      "status": "passed",
+      "ray_path": "D:\\虚拟C盘\\ziguanng\\stereo_integration\\runs\\20261029_123023_340b6a9b\\raw_calibration_candidate_v1\\right_output_ray.npy",
+      "ray_file_sha256": "3333af0fc407d92c1c99136d11adbd6af6cde1569374ffb5918aef40c48c7f62",
+      "ki_q30": [
+        [
+          1936118,
+          0,
+          -628627894
+        ],
+        [
+          0,
+          974651,
+          -348093955
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "configuration_sha256": "2fd4f8d5bf94ef8829ddaa3a54988537d346e9cb4167107573edfada96f9c473",
+      "actual_native_exit_code": 0,
+      "compile_errors_zero": true,
+      "all_pass_pose": true,
+      "no_error_or_fatal_or_fail_markers": true,
+      "native_status": {
+        "status": "passed",
+        "cases": 132,
+        "rtl_integer_tolerance_lsb": 0,
+        "integer_vs_float_max_lsb": 4,
+        "source_sha256": {
+          "rtl\\imu_ray_homography.v": "d809bde7403ffe5a87bc13e95bbe8eca869f4b920ca8750d15e6f79a7ad9be27",
+          "sim\\tb_pose_homography.sv": "41581261edb6f2827b8fe9a313326cb30b7404528c7b40325d403fd3b8852833"
+        },
+        "summary": [
+          "# ALL_PASS_POSE cases=132 coefficients=597"
+        ]
+      },
+      "evidence_sha256": {
+        "compile.do": "dc4f7b3e329d28598e50d663f2f0601b3642d87bf3d3cf1971d56ed5be56c249",
+        "compile.log": "954493800bbc2ef9ba53fec67418e97d265de1943ca91eff4576405c31706fdc",
+        "modelsim.ini": "d96e1da9c9c0a14c5f1739f0ce626214a4c4e790952e6634aa2f2cf4b20cff98",
+        "pose_vectors.hex": "50f481ccf5e9340ca6058541c1f29c2f711e1eff9e6a0696a2cd099fdb68b09c",
+        "simulation.log": "6103ad8edf19dc4353cca843e5bc361a17161d1b8e950a4dfc255182f19f5043",
+        "status.json": "092ae8f67ec0f6515f9410ede30374311980efef44d0f75ebce896277ab99b1a",
+        "transcript": "1f9591d71f42a50bfc0cfe572836392e0ef29908308598b3c061dd6876798cb9"
+      }
+    }
+  },
+  "frozen_candidate_all_files_unchanged": true,
+  "frozen_candidate_file_count": 213,
+  "total_cases": 264
+}

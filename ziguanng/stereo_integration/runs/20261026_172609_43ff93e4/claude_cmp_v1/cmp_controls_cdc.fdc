@@ -1,0 +1,18 @@
+# CANDIDATE ONLY (ENABLE_CMP_CONTROLS=1): apply together with stereo_cdc_candidate.fdc
+# and vendor_ddr_timing_candidate.fdc in a NEW complete Compile/Map/PNR run.
+# Same protocol rules as stereo_cdc_candidate.fdc: only first-stage synchronizer
+# D pins are false paths, held payload is bounded to 8ns and kept until ACK,
+# async reset assertion only to reviewed synchronizer C/P pins.
+# cmp_pair_gate mailbox: {binary,left index/ready,right index/ready}, core -> pixel.
+set_false_path -to [get_pins -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/req_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/ack_meta*/D*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/held*}] -to [get_cells -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/dst_data*}]
+set_false_path -hold -from [get_cells -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/held*}] -to [get_cells -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/dst_data*}]
+set_false_path -to [get_pins -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/reset_domains.source_reset_sync*/C cmp_pairing.u_cmp_pair_gate/mailbox/reset_domains.source_reset_sync*/P}]
+set_false_path -to [get_pins -hierarchical {cmp_pairing.u_cmp_pair_gate/mailbox/reset_domains.destination_reset_sync*/C cmp_pairing.u_cmp_pair_gate/mailbox/reset_domains.destination_reset_sync*/P}]
+set_false_path -to [get_pins -hierarchical {cmp_pairing.u_cmp_pair_gate/pix_reset_sync*/C cmp_pairing.u_cmp_pair_gate/pix_reset_sync*/P}]
+# CMP switch labels for the button text, sys_clk -> pclk (touch_event_cdc).
+set_false_path -to [get_pins -hierarchical {cmp_label_state.u_cmp_label_cdc/req_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {cmp_label_state.u_cmp_label_cdc/ack_meta*/D*}]
+set_max_delay 8.000 -datapath_only -from [get_cells -hierarchical {cmp_label_state.u_cmp_label_cdc/held*}] -to [get_cells -hierarchical {cmp_label_state.u_cmp_label_cdc/dst_data*}]
+set_false_path -hold -from [get_cells -hierarchical {cmp_label_state.u_cmp_label_cdc/held*}] -to [get_cells -hierarchical {cmp_label_state.u_cmp_label_cdc/dst_data*}]

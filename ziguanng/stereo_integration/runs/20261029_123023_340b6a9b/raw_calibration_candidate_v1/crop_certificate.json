@@ -1,0 +1,80 @@
+{
+  "status": "passed_offline_only",
+  "eyes": {
+    "left": {
+      "calibration_sha256": "1dff3ef5430a63e323a73f018328499a4b1cec519d5209c9b691d503c796e3b5",
+      "coefficients": {
+        "k1": 34889651,
+        "k2": -196391741,
+        "p1": -2419190,
+        "p2": -45012,
+        "fx": 36405695,
+        "fy": 72355191,
+        "cx": 1384466,
+        "cy": 1458700,
+        "width": 640,
+        "height": 720
+      },
+      "bounds_q20": [
+        -626451,
+        557860,
+        -332101,
+        338390
+      ],
+      "base_fraction_q16": 64348,
+      "proof_pass": true,
+      "evidence": {
+        "closed_tiles": 1024,
+        "source_x_q12": [
+          59828,
+          2586511
+        ],
+        "source_y_q12": [
+          34,
+          2918724
+        ],
+        "jacobian_det_lower_ppm": 337265
+      },
+      "method": "exact integer closed-tile interval enclosure, fixed Brown and positive quantized-lens Jacobian",
+      "guard_margin": "runtime inequalities use bounds inset by one Q20 unit, exceeding Q26 division rounding error"
+    },
+    "right": {
+      "calibration_sha256": "00985322099714bdd0958586338ea2c3021f4696b7682ca461eba60b43c13e34",
+      "coefficients": {
+        "k1": 13755708,
+        "k2": -82630784,
+        "p1": -2011137,
+        "p2": 1322063,
+        "fx": 35909937,
+        "fy": 71334080,
+        "cx": 1329654,
+        "cy": 1462990,
+        "width": 640,
+        "height": 720
+      },
+      "bounds_q20": [
+        -612477,
+        593148,
+        -339242,
+        343658
+      ],
+      "base_fraction_q16": 64614,
+      "proof_pass": true,
+      "evidence": {
+        "closed_tiles": 1024,
+        "source_x_q12": [
+          41098,
+          2601137
+        ],
+        "source_y_q12": [
+          36,
+          2921069
+        ],
+        "jacobian_det_lower_ppm": 686530
+      },
+      "method": "exact integer closed-tile interval enclosure, fixed Brown and positive quantized-lens Jacobian",
+      "guard_margin": "runtime inequalities use bounds inset by one Q20 unit, exceeding Q26 division rounding error"
+    }
+  },
+  "proof_source_sha256": "aec9c1e977d2b406ef42fda4c2943040657df5ebbf7d6b9c91b497061de8e305"
+}

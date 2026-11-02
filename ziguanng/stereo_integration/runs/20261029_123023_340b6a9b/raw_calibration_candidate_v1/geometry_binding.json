@@ -1,0 +1,250 @@
+{
+  "status": "OFFLINE_CANDIDATE_ONLY",
+  "stereo_valid": false,
+  "scope": "new independent mono K/D, even-x640x720 core configuration, exact integer safe-ray certificate and identity pose crop",
+  "eyes": {
+    "left": {
+      "calibration_sha256": "1dff3ef5430a63e323a73f018328499a4b1cec519d5209c9b691d503c796e3b5",
+      "certificate": {
+        "calibration_sha256": "1dff3ef5430a63e323a73f018328499a4b1cec519d5209c9b691d503c796e3b5",
+        "coefficients": {
+          "k1": 34889651,
+          "k2": -196391741,
+          "p1": -2419190,
+          "p2": -45012,
+          "fx": 36405695,
+          "fy": 72355191,
+          "cx": 1384466,
+          "cy": 1458700,
+          "width": 640,
+          "height": 720
+        },
+        "bounds_q20": [
+          -626451,
+          557860,
+          -332101,
+          338390
+        ],
+        "base_fraction_q16": 64348,
+        "proof_pass": true,
+        "evidence": {
+          "closed_tiles": 1024,
+          "source_x_q12": [
+            59828,
+            2586511
+          ],
+          "source_y_q12": [
+            34,
+            2918724
+          ],
+          "jacobian_det_lower_ppm": 337265
+        },
+        "method": "exact integer closed-tile interval enclosure, fixed Brown and positive quantized-lens Jacobian",
+        "guard_margin": "runtime inequalities use bounds inset by one Q20 unit, exceeding Q26 division rounding error"
+      },
+      "static_zoom": 1.015204864501953,
+      "static_fixed_pixels_checked": 460800,
+      "static_invalid_pixels": 0,
+      "ki_q30": [
+        [
+          1903955,
+          0,
+          -644081191
+        ],
+        [
+          0,
+          957980,
+          -341114254
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "identity_cropped_q30": [
+        [
+          1895820,
+          0,
+          -641482195
+        ],
+        [
+          0,
+          953887,
+          -339642845
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "identity_crop_scale_q16": 65256,
+      "identity_fixed_pixels_checked": 460800,
+      "identity_invalid_pixels": 0,
+      "identity_output_ray_matrix": [
+        [
+          0.0017656199634075165,
+          0.0,
+          -0.5974268494173884
+        ],
+        [
+          0.0,
+          0.000888376496732235,
+          -0.3163170488551259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "identity_effective_output_K": [
+        [
+          566.3732970429683,
+          0.0,
+          338.36661444651924
+        ],
+        [
+          0.0,
+          1125.648870358858,
+          356.06192871902016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "opencv_vs_fixed_max_abs_px": 0.00023554842846351676,
+      "opencv_vs_fixed_rms_px": 0.00010386813735087289,
+      "ray_convention": "[X,Y,Z] proportional to H*[u,v,1]; camera axes x right, y down, z forward; H is captured-camera normalized ray matrix after integer builder+pose_auto_crop, not inv(raw K).",
+      "config_sha256": "02431a7f263f7ffe175fe2df7f90edfff2014091bfa4a3ada2b03e83ecd1e1a3"
+    },
+    "right": {
+      "calibration_sha256": "00985322099714bdd0958586338ea2c3021f4696b7682ca461eba60b43c13e34",
+      "certificate": {
+        "calibration_sha256": "00985322099714bdd0958586338ea2c3021f4696b7682ca461eba60b43c13e34",
+        "coefficients": {
+          "k1": 13755708,
+          "k2": -82630784,
+          "p1": -2011137,
+          "p2": 1322063,
+          "fx": 35909937,
+          "fy": 71334080,
+          "cx": 1329654,
+          "cy": 1462990,
+          "width": 640,
+          "height": 720
+        },
+        "bounds_q20": [
+          -612477,
+          593148,
+          -339242,
+          343658
+        ],
+        "base_fraction_q16": 64614,
+        "proof_pass": true,
+        "evidence": {
+          "closed_tiles": 1024,
+          "source_x_q12": [
+            41098,
+            2601137
+          ],
+          "source_y_q12": [
+            36,
+            2921069
+          ],
+          "jacobian_det_lower_ppm": 686530
+        },
+        "method": "exact integer closed-tile interval enclosure, fixed Brown and positive quantized-lens Jacobian",
+        "guard_margin": "runtime inequalities use bounds inset by one Q20 unit, exceeding Q26 division rounding error"
+      },
+      "static_zoom": 1.0121233253479003,
+      "static_fixed_pixels_checked": 460800,
+      "static_invalid_pixels": 0,
+      "ki_q30": [
+        [
+          1936118,
+          0,
+          -628627894
+        ],
+        [
+          0,
+          974651,
+          -348093955
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "identity_cropped_q30": [
+        [
+          1931568,
+          0,
+          -627174299
+        ],
+        [
+          0,
+          972361,
+          -347270597
+        ],
+        [
+          0,
+          0,
+          1073741824
+        ]
+      ],
+      "identity_crop_scale_q16": 65382,
+      "identity_fixed_pixels_checked": 460800,
+      "identity_invalid_pixels": 0,
+      "identity_output_ray_matrix": [
+        [
+          0.0017989128828048706,
+          0.0,
+          -0.5841015828773379
+        ],
+        [
+          0.0,
+          0.0009055817499756813,
+          -0.32342094648629427
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "identity_effective_output_K": [
+        [
+          555.8912883211981,
+          0.0,
+          324.69698141613446
+        ],
+        [
+          0.0,
+          1104.262536239113,
+          357.14163463980975
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "opencv_vs_fixed_max_abs_px": 0.0002480954681516323,
+      "opencv_vs_fixed_rms_px": 0.00010762789511584109,
+      "ray_convention": "[X,Y,Z] proportional to H*[u,v,1]; camera axes x right, y down, z forward; H is captured-camera normalized ray matrix after integer builder+pose_auto_crop, not inv(raw K).",
+      "config_sha256": "2fd4f8d5bf94ef8829ddaa3a54988537d346e9cb4167107573edfada96f9c473"
+    }
+  },
+  "sources_sha256": {
+    "scripts\\build_crop_certificate.py": "aec9c1e977d2b406ef42fda4c2943040657df5ebbf7d6b9c91b497061de8e305",
+    "scripts\\crop_geometry.py": "afd9836ddc8cca1300ac2401ccdc8e24f2a0cb50da05df18552247564aee0125",
+    "scripts\\test_pose.py": "84839c2a615ab50bb71be06971c1148c9a450fdc2b9f2fbef65a371921a90bcb",
+    "rtl\\pose_auto_crop.v": "bb446464c89854026d9e6bec8ff917e03bcd0abe29abe456860a551c04cc646d",
+    "rtl\\imu_ray_homography.v": "d809bde7403ffe5a87bc13e95bbe8eca869f4b920ca8750d15e6f79a7ad9be27"
+  }
+}

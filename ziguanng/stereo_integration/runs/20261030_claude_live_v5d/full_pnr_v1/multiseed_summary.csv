@@ -1,0 +1,35 @@
+version,2022.2-SP6.4<build 146967>
+project name,stereo_board.pds
+
+Single Seed:
+Seed,State,Convergence,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),PBM-GP,PBM-PreGP,PBM-PostGP,LP,Total Placement Cpu Time,Detailed routing,Total Routing Cpu Time,Wire Length After Post-GP,Wire Length After LP,Wire Length After DP,Routing Arc Length,Worst Slack After GP Timing,Worst Slack After LP Timing,Worst Slack Before RP,Worst Slack Before DP,Worst Slack After DP,Worst Slack After Placement,Worst Slack After TA By Preroute,TNS After DP,TNS Before Route,Setup(Slow) Total Failing TNS,Setup(Slow) Total Failing Endpoints,Hold(Slow) Total Failing THS,Hold(Slow) Total Failing Endpoints,Power
+single,OK,Fail,-5.070,-2.264,0.101,-0.247,-4.593,-3.778,0.229,0.142,33.64,NA,0.00,4.69,946.55,2748.21,3765.54,NA,NA,NA,1660983,NA,NA,-208,-208,546,-5777,NA,0,NA,-5.098,2,0.000,0,NA
+Pass Rate/Convergence Rate,100.00%,0.00%
+
+Synthesize:
+control_set,1313
+Synthesize Performance Summary:
+slack category,Synthesize Setup WNS,Synthesize Setup TNS,Synthesize Recovery WNS,Synthesize Recovery TNS
+slack value,-0.002,-0.002,-2.962,-2.962
+Synthesize Process Cpu Time,0h:9m:59s
+
+Device Map:
+Device Map Resource Usage Summary:
+Logic Utilization,LUT,FF,DRM,APM,Distributed RAM,HSSTHP,USCM,HCKB,RCKB
+Used,85789,115221,392,740,680,NA,7,0,2
+Available,159800,319600,415,740,39500,NA,32,120,40
+Utilization(%),54%,37%,95%,100%,2%,NA,22%,0%,5%
+Device Map Process Cpu Time,0h:2m:49s
+
+Project Configurations:
+top module,Top
+compile," -top_module {Top} 
+ -defined_parameters {ENABLE_ALGORITHM	1	ENABLE_AUX_READ	1	ENABLE_CMP_CONTROLS	1	IMU_DEBUG_DISPLAY	1	ENABLE_LIVE_STREAM	0	ENABLE_MEASUREMENT	1	DIRECT_VIDEO	1	DIRECT_CAMERA	0	CAM0_SAMPLE_NEGEDGE	0	RAW8_CALIBRATION_VALID	1	CAM_RATE_OVERLAY	1	ENABLE_DDR_VIEW_RENDER	1	ENABLE_DDR_TEST_BARS	0	RAW8_STEREO_CALIBRATION_VALID	1} 
+ -system_verilog "
+synthesize," -ads "
+device map,
+place & route,
+
+Test Parameters Configurations:
+testparam,
+

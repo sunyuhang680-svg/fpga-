@@ -1,0 +1,16 @@
+# CANDIDATE ONLY. Explicit vendor-derived clocks plus six vendor budget commands.
+# Original IP file and board FDC remain read only. No clock period relaxation.
+# Actual report must contain 8ns core phase0 and 8ns bank clocks phase2.
+# No physical IO, asynchronous group, reset exception, or pin placement copied.
+# Recheck actual matches, hold, recovery/removal and all IO in a NEW full flow.
+create_generated_clock -name {stereo_ddr_core} -source [get_ports {clk_p}] [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_gpll/clkout0$}] -master_clock [get_clocks {ref_clk}] -multiply_by 16 -divide_by 16
+create_generated_clock -name {stereo_phy_fast_0} -source [get_ports {clk_p}] [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[0\]\.ddrphy_ppll/clkoutphy$}] -master_clock [get_clocks {ref_clk}] -multiply_by 16 -divide_by 2
+create_generated_clock -name {stereo_phy_div_0} -source [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[0\]\.ddrphy_ppll/clkoutphy$}] [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[0\]\.u_ddrphy_ioclkdiv/CLKDIVOUT$}] -master_clock [get_clocks {stereo_phy_fast_0}] -edges {5 13 21} -edge_shift {0 0 0}
+set_multicycle_path 2 -from [get_clocks {stereo_ddr_core}] -to [get_clocks {stereo_phy_div_0}]
+set_clock_uncertainty 0.4 -from [get_clocks {stereo_ddr_core}] -to [get_clocks {stereo_phy_div_0}] -setup -hold
+set_clock_uncertainty 0.4 -from [get_clocks {stereo_phy_div_0}] -to [get_clocks {stereo_ddr_core}] -setup -hold
+create_generated_clock -name {stereo_phy_fast_1} -source [get_ports {clk_p}] [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[1\]\.ddrphy_ppll/clkoutphy$}] -master_clock [get_clocks {ref_clk}] -multiply_by 16 -divide_by 2
+create_generated_clock -name {stereo_phy_div_1} -source [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[1\]\.ddrphy_ppll/clkoutphy$}] [get_pins -hierarchical -regexp {^DDR_200H_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank\[1\]\.u_ddrphy_ioclkdiv/CLKDIVOUT$}] -master_clock [get_clocks {stereo_phy_fast_1}] -edges {5 13 21} -edge_shift {0 0 0}
+set_multicycle_path 2 -from [get_clocks {stereo_ddr_core}] -to [get_clocks {stereo_phy_div_1}]
+set_clock_uncertainty 0.4 -from [get_clocks {stereo_ddr_core}] -to [get_clocks {stereo_phy_div_1}] -setup -hold
+set_clock_uncertainty 0.4 -from [get_clocks {stereo_phy_div_1}] -to [get_clocks {stereo_ddr_core}] -setup -hold

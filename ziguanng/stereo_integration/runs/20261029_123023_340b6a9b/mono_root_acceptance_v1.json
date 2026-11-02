@@ -1,0 +1,83 @@
+{
+  "mono_integration_authorized": true,
+  "stereo_valid": false,
+  "png_rgb565_roundtrip_images": 39,
+  "results": {
+    "C0": {
+      "train_rms_px": 0.7091208151706994,
+      "heldout_max_rms_px": 0.8269651532173157,
+      "fx": 1111.0136460163496,
+      "fy": 1104.0525994509114,
+      "cx": 676.008987184014,
+      "cy": 356.12788740025934,
+      "D": [
+        0.12997407751206372,
+        -0.7316162481663986,
+        -0.009012184473184593,
+        -0.00016768183907300922,
+        0.0
+      ],
+      "checked_view_residuals": 19,
+      "pose_crop_identity_scale_q16": 65256,
+      "opencv_fixed_max_abs_px": 0.00023554842846351676
+    },
+    "C1": {
+      "train_rms_px": 0.7152235788794021,
+      "heldout_max_rms_px": 0.6154626607894897,
+      "fx": 1095.884293588467,
+      "fy": 1088.4716727807033,
+      "cx": 649.2453339689557,
+      "cy": 357.1753227102604,
+      "D": [
+        0.051244005931829345,
+        -0.30782365771221565,
+        -0.007492070675472215,
+        0.004925067640484746,
+        0.0
+      ],
+      "checked_view_residuals": 19,
+      "pose_crop_identity_scale_q16": 65382,
+      "opencv_fixed_max_abs_px": 0.0002480954681516323
+    }
+  },
+  "pose_crop_cases": 162,
+  "fixed_scan_pixels": 3686400,
+  "root_checks": "Original archive/all extracted SHA, all 39 PNG/raw exact packed-pixel roundtrip, 38 view reprojection residuals independently recomputed; holdout exclusion; even-x transform and packed constants; actual crop RTL source/log bound.",
+  "calibration_sha256": {
+    "artifact_sha256.json": "f659c1517685cd93760553d114ec9db3f6db0a7e61db4baffe7a33deaf1540fe",
+    "corner_observations.json": "0cd2fe694447058c1f53afce99de4a56c014d0ee5954a62ecd8f8d8374ad8b55",
+    "crop_certificate.json": "9c6ba7dbb7ad910fa1da434f17c8d837d590ab2e9743e4459750c67c5815cf01",
+    "delivery_audit.json": "8ef1beefcec0bf1f584ce8a3209fd6d8064708d5159db5b83ef2267ce40d2b72",
+    "fallback_corners.json": "379d7123ff6f4360556ceac2b8740205497f5df475a8ff75c25fd771a010ed02",
+    "final_validation.json": "770b14dab524f18ec395b933a89186b3f5d699132d6140fd69e3dce6094810a2",
+    "geometry_binding.json": "aa418b0996bdd9108ac7122f9266b6672a52a03fe1ccc52d7a2d424227708413",
+    "inventory.json": "bab05e12c690aa14dc6a244a4b3fb1b87a266012788d79f77dc287890efdb923",
+    "left_1280x720.json": "8db7bc357e3509772468b500fcea6fb0cca433ddacebe8a0ea28fb68106e6b9d",
+    "left_640x720.json": "1dff3ef5430a63e323a73f018328499a4b1cec519d5209c9b691d503c796e3b5",
+    "left_config.hex": "02431a7f263f7ffe175fe2df7f90edfff2014091bfa4a3ada2b03e83ecd1e1a3",
+    "left_identity_cropped_output_ray.npy": "a118b05479aef28c762ab23221d7634be6094c8345975100fb5d95339651eda2",
+    "left_output_ray.npy": "9697a22c6186f18afb687acc8ff5fe0f2c6452d095d29a900d709b64137f2876",
+    "mono_report.json": "1b1123bc81b2a66ef83666c0591337a1751ab7638e3cad5c463308cf6bea5fa1",
+    "mono_sb_initial.json": "26d0e2bb984cc9de83e8eaf7b540adc2354f821ed23b33b6158bc10d37afe4c9",
+    "reference_preview_binding.json": "dfbba3fa69f7a33b724e5e13a23c2450b5f0b1d28b9725280675899380149d5a",
+    "right_1280x720.json": "f8baee054f5a97b954f1f17336207696ac9e0f4f020638c91dfc0eeb89dfc66b",
+    "right_640x720.json": "00985322099714bdd0958586338ea2c3021f4696b7682ca461eba60b43c13e34",
+    "right_config.hex": "2fd4f8d5bf94ef8829ddaa3a54988537d346e9cb4167107573edfada96f9c473",
+    "right_identity_cropped_output_ray.npy": "2274668b0d2e7857b63c7c37f85da4031a940b0f80643a52b45956b08bbf26a0",
+    "right_output_ray.npy": "3333af0fc407d92c1c99136d11adbd6af6cde1569374ffb5918aef40c48c7f62",
+    "stereo_calibration_constants.v": "2e2fa8b3dabfdbee47e7e8f766e622ff7e0204dc65aa6705c68b8e732f5df92c"
+  },
+  "limitations": [
+    "Independent sessions cannot define new stereo R/T, baseline or metric accuracy.",
+    "Mono RMS around 0.71px is development calibration, no board/2mm claim. Focus/mount must remain the same.",
+    "Formal integration/native full timing/board photo and undistortion checks remain pending."
+  ],
+  "new_ki_builder_root_review": {
+    "status": "passed_scoped",
+    "actual_rtl_cases": 264,
+    "tolerance_lsb": 0,
+    "source_logs_hash_checked": true,
+    "status_sha256": "52b92c3f16fe885c615a7286975d8062911a911c8dae7d0de5a4c1c4f04e3d1a",
+    "scope": "builder only; no metric stereo qualification or board pass"
+  }
+}

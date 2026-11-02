@@ -1,0 +1,25 @@
+# Integration budget: nominal fastest period 8ns, reserve 0.5ns.
+# Only reviewed registered Gray -> first synchronization stage.
+# New CCR/route/exception/max-skew and same-clock follow-on evidence required.
+# REVIEW CANDIDATE ONLY: new compile/map/PNR + CCR + exception/max-skew report required.
+# No clock-group cut; no stage-2, reset/async pins or PHY exceptions.
+# Gray source contract: registered reflected Gray, at most one bit changes per source step.
+# Fastest participating nominal clock period 8ns; use 8ns max physical data+setup budget.
+# Existing 36-bit old-route coverage is recorded in findings.json.
+# Physical source-period/jitter guard and MTBF remain integration signoff requirements.
+# rptr -> wrptr1: expect exactly 9 connected crossing paths.
+set_max_delay 7.500 -datapath_only -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+set_max_skew 7.500 -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+set_false_path -hold -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+# wptr -> rwptr1: expect exactly 9 connected crossing paths.
+set_max_delay 7.500 -datapath_only -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]
+set_max_skew 7.500 -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]
+set_false_path -hold -from [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst0/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]
+# rptr -> wrptr1: expect exactly 9 connected crossing paths.
+set_max_delay 7.500 -datapath_only -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+set_max_skew 7.500 -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+set_false_path -hold -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wrptr1*}]
+# wptr -> rwptr1: expect exactly 9 connected crossing paths.
+set_max_delay 7.500 -datapath_only -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]
+set_max_skew 7.500 -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]
+set_false_path -hold -from [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.wptr*}] -to [get_cells -hierarchical {frame_read_write_inst1/read_buf/U_ipm2l_fifo_afifo_64i_16o_128/U_ipm2l_fifo_ctrl/ASYN_CTRL.rwptr1*}]

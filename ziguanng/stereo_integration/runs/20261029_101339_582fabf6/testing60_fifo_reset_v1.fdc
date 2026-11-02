@@ -1,0 +1,23 @@
+# Owned FIFO adapter: only reviewed asynchronous assertion pins and first remote-ready sampling D.
+# All release shift D paths, second remote-ready D paths, and local FIFO recovery/removal stay timed.
+# No clock-group or PHY exception. Deassertion of FIFO reset is local two-stage synchronous release.
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/read_wr_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/read_rd_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/write_wr_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/write_rd_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/read_remote_meta*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/read_remote_ready*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/write_remote_meta*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/write_remote_ready*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/read_remote_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst0/write_remote_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/read_wr_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/read_rd_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/write_wr_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/write_rd_release*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/read_remote_meta*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/read_remote_ready*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/write_remote_meta*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/write_remote_ready*/C}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/read_remote_meta*/D*}]
+set_false_path -to [get_pins -hierarchical {frame_read_write_inst1/write_remote_meta*/D*}]

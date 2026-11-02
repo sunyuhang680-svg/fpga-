@@ -1,0 +1,14 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fx": 1095.884293588467,
+  "fy": 1088.4716727807033,
+  "cx": 649.2453339689557,
+  "cy": 357.1753227102604,
+  "k1": 0.051244005931829345,
+  "k2": -0.30782365771221565,
+  "p1": -0.007492070675472215,
+  "p2": 0.004925067640484746,
+  "source": "new RAW8 C1; independent mono session; 9x6 inner corners; 26mm user-confirmed square; held-out excluded; stereo invalid",
+  "reprojection_rms": 0.7152235788794021
+}

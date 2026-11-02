@@ -1,0 +1,2055 @@
+{
+  "opencv": "4.14.0",
+  "archives": [
+    {
+      "side": "C0",
+      "name": "c0(1).7z",
+      "bytes": 42920888,
+      "sha256": "4655c716e91303a1254df895e6e7a100869511b226decf67fca29460b40970a7",
+      "members": 77,
+      "file_count": 57,
+      "safe_paths_verified": true
+    },
+    {
+      "side": "C1",
+      "name": "c1(1).7z",
+      "bytes": 43763288,
+      "sha256": "e99d24f3e5c0b69372ffde85a6cad533e6656498fb3b46eb299adb3f374fd945",
+      "members": 81,
+      "file_count": 60,
+      "safe_paths_verified": true
+    }
+  ],
+  "files": [
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0001/cam0.png",
+      "bytes": 1252621,
+      "sha256": "ed29318f86dcd48b3b120db16f419b1f031dda4b64fa58560968e0f05b78f07c"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0001/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "5e461410ad88011d56939295f3984589912c601260ad68ce487c41026f4c50a5"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0001/metadata.json",
+      "bytes": 673,
+      "sha256": "104cd1ef2a4a4c2a6dcad67f7c2d1d506555e7f2e2f4c0e6c98b9ab50803340f"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0002/cam0.png",
+      "bytes": 1287471,
+      "sha256": "18d2e68a343ebff03fefdfa0f825b5341a1c2538ce8328678b1e1d7e8e3064dd"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0002/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "0391656c52b18686b0060c9f6f46a7c1118cfbd7e9e25d79fc2c68ba04307a29"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0002/metadata.json",
+      "bytes": 674,
+      "sha256": "d588741cb754129317be08c475dc524f368f09969e3ad50901971379e46f12b9"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0003/cam0.png",
+      "bytes": 1294097,
+      "sha256": "0573c7ad278aa8d8b89f25d69d086443fa13ee0f403fd25d812c5de7108c9344"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0003/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "f60c65e6bf5200825aba69b0e5984a04de6ae98ffd502cb3ec6956ba82512ceb"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0003/metadata.json",
+      "bytes": 673,
+      "sha256": "192fd035fdd27acd999527bec7c2578f298530b78ca0eaa926871c4ae0f6a6c9"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0004/cam0.png",
+      "bytes": 1223816,
+      "sha256": "407ed663f55f94e86af39fa03e75cfadbeb7bf85563b2a255bb4fbff69787128"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0004/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "4487f52f152a541910a409aa31966b9f38a2e22b7431bfb491089c49a1987f51"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0004/metadata.json",
+      "bytes": 673,
+      "sha256": "c5d27c030ba3727f4625fa9448409ae58d13c89221cbeda0e0e1c8b66bc7f82b"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0005/cam0.png",
+      "bytes": 1214396,
+      "sha256": "058fc4a3e325768e315010c894ec968e4e2f6c117628f200fad19dc9ee7ea8dc"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0005/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "beebbc5a3a13f1e549c42d7f2c3c5095b753e7374230e1b145d2333de79bd109"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0005/metadata.json",
+      "bytes": 672,
+      "sha256": "b0e900392a5482922960e6da6958b77c95141739c4435d219dccd8444391d04c"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0006/cam0.png",
+      "bytes": 1243023,
+      "sha256": "d0dcdcc27d904fbafb269f30daac22e8aa1d16924c7e9af210c5b41b2e065ff0"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0006/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "82b970593a47c63939ecb06f859811c46caae25cb49bee96fd803eb90d77ed7a"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0006/metadata.json",
+      "bytes": 673,
+      "sha256": "6bfd4525328717f70147dd37d59c7434d79f82288f36c48327bb260d3cf69997"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0007/cam0.png",
+      "bytes": 1314479,
+      "sha256": "fe9f490000c45285fb30f26b9f56e451ef9289fec47b8fcf893507d75bb2ef0b"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0007/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "a92ed653b0920b08fdc77654508659f1eb42950af19fc6ef073909d3e1273c20"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0007/metadata.json",
+      "bytes": 672,
+      "sha256": "2fdc1bad57a53fc3cfee895157d5ca6bc8fc972a3c41c01bab3402333e8034a4"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0008/cam0.png",
+      "bytes": 1256217,
+      "sha256": "c92830319222babc20f78c1ca7f1a4828cc52c84c762fbc72e317883aefdd526"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0008/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "c5dbc2bbd292382d9dcde4834714e29fed88dc17ae50a9f9b81824a075577ab1"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0008/metadata.json",
+      "bytes": 674,
+      "sha256": "4452748d259de846cdc3d0da283a1c47412178cd93fa810794a51727139a3198"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0009/cam0.png",
+      "bytes": 1294213,
+      "sha256": "771b63880bf4663ed977c534190958b55612c2412170eb29de251211a39583ae"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0009/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "d3f3f27231db790ed5f59af06d7beafe5092e25d2f65992b00597830f84654b1"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0009/metadata.json",
+      "bytes": 674,
+      "sha256": "44d8cc1b87e5c97958258505cf84f98771a482d33e24a04f45648e3eb7abea57"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0010/cam0.png",
+      "bytes": 1270514,
+      "sha256": "d94d5c7bd6f6d0136a1f78071dd93187397a3c4ab74562493c7f5e1ac5636353"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0010/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "ed1a973b7f17b5596d477da797f84ac3dab8bffc823511cd54b4cf15e93bd7ec"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0010/metadata.json",
+      "bytes": 674,
+      "sha256": "c5cc0ee7d1e70b9286231688a459bc3af84fdbfe3e97938d1d25f206edfaad1e"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0011/cam0.png",
+      "bytes": 1215950,
+      "sha256": "737806ff3d49dd047a567368bd99fd542fdb61ac92affab21ccc326c55b54cc4"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0011/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "31db1a7029cac6ffced40059e67d8c641a691e83ba9d85cd0af8bc2f47c9028f"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0011/metadata.json",
+      "bytes": 674,
+      "sha256": "34b92eb3195dbaf7968d510d1c8490e0501bff7b43446b2009de2731cfc0be9c"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0012/cam0.png",
+      "bytes": 1320874,
+      "sha256": "63c591bf5dfce30639fe8b15d35a27473c13e7ca1a6b120c4e7b4c5ceb3e242d"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0012/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "b4718c54bfffeeb31e76f940a9635b9d6023557a6be4ce3cddd32fabbd2fac10"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0012/metadata.json",
+      "bytes": 675,
+      "sha256": "88c4ee6c522b87305fac0cc474b587241969eaca50e45eb53c4a89a232b89f9b"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0013/cam0.png",
+      "bytes": 1229112,
+      "sha256": "d15914fd84bfb61c38911c2724d03cf2647997a7ca59277e236abeb946236d95"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0013/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "d5c857190cd463e0c4449391bd6197ddfeb98eff46fff3db96abed800319dadd"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0013/metadata.json",
+      "bytes": 674,
+      "sha256": "f380351779ea31a8030187b67b6bcb5081bbccc2c19932e391499b01a108017d"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0014/cam0.png",
+      "bytes": 1292036,
+      "sha256": "12febbd905baea6c3c9c3e1fc69d767dd94ff9d6fae69ac63e5daba63d93bbe5"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0014/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "1b3657ca86cc3347060f62931d7a6616a0a94e1fb9928b43afd00fa726ad3dd8"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0014/metadata.json",
+      "bytes": 675,
+      "sha256": "4746248b818cdbebaf0cc81bb267cf730f2b7cc1a8fdff6f9b180169066460dc"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0015/cam0.png",
+      "bytes": 1279571,
+      "sha256": "e01a96b94c8cbda9b796fc8d7e644014edbc660536cc7d34e45eede0f53010eb"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0015/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "835ba4e2fd0797359eb11c928e189fce732ed4cef8848af1b54ab8f2beb8376c"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0015/metadata.json",
+      "bytes": 676,
+      "sha256": "8cc3fe69250eb12bfc5a6f78b0c3e2fc06c4c34c3e018d97097ec669bc997d02"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0016/cam0.png",
+      "bytes": 1278917,
+      "sha256": "bdf15cc89371ebd148827a8f567f5221f9dfa0dff9800dd7dc7aa27ae351f180"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0016/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "425cfe6f5fc1243967ba5d141ebe4773585831180a8a46e5d14a6d03144e13f7"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0016/metadata.json",
+      "bytes": 676,
+      "sha256": "1aab5990a93b8ed860d0347a07cbc234005ed938a0b2c9988a26861dc782b7f8"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0017/cam0.png",
+      "bytes": 1288705,
+      "sha256": "13e0108169274faf9e90c906054682cbf05540a382eacf0c49902ec4146e44fa"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0017/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "61aa7cfc99832b062da523d8224bd0f66e76dd25165d003ce73e868ea4fb0cec"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0017/metadata.json",
+      "bytes": 676,
+      "sha256": "e484123ee9df1c94d4ca1b8bbb1f88c5ef70cd52552d090f13ce84b2e77690d4"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0018/cam0.png",
+      "bytes": 1261161,
+      "sha256": "960e04a6f8338cc6bda5bddeeabff979effe53cf7e7f1db3414fcefb5c924c7c"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0018/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "476d7c3295cd5f75092142451834e1ea66fd3c08ced8d317034984e60ee04abf"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0018/metadata.json",
+      "bytes": 676,
+      "sha256": "587593cb799c777ef41e8a423e9641e0aab3fe99011f776cacfc7e452e847963"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0019/cam0.png",
+      "bytes": 1280822,
+      "sha256": "881572ed92c304de3610dc7e173a042c342dba2c65f31298d4169e8b7b9685ac"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0019/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "6f4adfd9ac17404a98add1f9ae055186b912252ba7b3768abe59ef26d726c093"
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0019/metadata.json",
+      "bytes": 675,
+      "sha256": "ee8f6461ff4f1933d3d9a2e25517f332418609ee8d36241937c22969be084adf"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0001/cam0.png",
+      "bytes": 1151495,
+      "sha256": "16a5ef9a773b930afeffa4d5e98117b5e0ab8228fca052fb3edbb6824ab284e5"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0001/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "9e0b4342fbfa0609507b5155b6a36d2fc504c8c2bb63f4448f7e19d8ffe54d83"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0001/metadata.json",
+      "bytes": 765,
+      "sha256": "745f0aa2fd9de04af7bb538169cf1767383e83155a1837a7c730b9963955fb3a"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0002/cam0.png",
+      "bytes": 1278262,
+      "sha256": "b1444c174d812452c32ce70fa77d7444d7aa726905edde0be9f1f921f6e6ab86"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0002/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "c4b3a7e5300b522875ba83f5c7511801cb1fc122e138c58e58b7fd448ecc7511"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0002/metadata.json",
+      "bytes": 765,
+      "sha256": "daff35cbf1dc26e6d79c5eb155b6e732bbe676f5f182b269d70d3dd076488b6f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0003/cam0.png",
+      "bytes": 1237406,
+      "sha256": "2cc3629797b9eaf2588de0bef6954e277ceb7925ee45b8ee58aa9fa866bb0f62"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0003/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "e49abbcf278ed040255d8342aef5a3f5f0de580efcac7cdf6b765353b6b1e806"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0003/metadata.json",
+      "bytes": 766,
+      "sha256": "55a4a06f35da67d2367e6a2de33089aafae48b6c7efaa15da6d6c388ad28f9ab"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0004/cam0.png",
+      "bytes": 1198128,
+      "sha256": "b669c525e9a4f98e772f870e69beb19f557429ba73d3206567a0c2d59b263fd2"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0004/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "48d53b4c057edab51a572d2788dfacc86d3a2b81bee607cdb7c7f70af153231c"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0004/metadata.json",
+      "bytes": 766,
+      "sha256": "030ee1d0091918197a67885e7561ce290875ea8ffdcebcf32b257f92d86fb056"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0005/cam0.png",
+      "bytes": 1266056,
+      "sha256": "897e44e0e46380ce71e8f414816307080d43f171251ef624a8f5e32557a8290c"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0005/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "25994a6a7273b248fd4b409cb493b16048c180e24ee9da872e350029ec3ba29f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0005/metadata.json",
+      "bytes": 766,
+      "sha256": "ede7d2cb8242a1ed54961358b9767fb660e3b57dbdb63fd2103d7d5d602b5c22"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0006/cam0.png",
+      "bytes": 1266103,
+      "sha256": "2dcc5a076ce1bc153b4d35c89ec3a2fef31a52dc34c3c99dff067cf596d63751"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0006/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "56469e81394bb8c8ee7435a8c0a4fe41f1ca04165060b1249a3a4071699be550"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0006/metadata.json",
+      "bytes": 766,
+      "sha256": "c016e892eeab022702ea0f88514dad5c212e412ec8ae308defdd80efc45caca6"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0007/cam0.png",
+      "bytes": 1249837,
+      "sha256": "8c98b6fde5785b9d105faf83514d2113f5bbb444a6afd24055975a0a0f3e420c"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0007/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "25f4442c308b6648c9b4892bf5ad82aa468e8b4af3286d3d8ac0a52dc3964957"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0007/metadata.json",
+      "bytes": 766,
+      "sha256": "3028d124d9a54ea5e700f56b4467588060f3cb35e89a87cf771d183d2ff61d75"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0008/cam0.png",
+      "bytes": 1265446,
+      "sha256": "61a68ccabdee757c98410d9cc6f1a5ec6a9f4a99815b42a99e91250b30568c1d"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0008/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "b8d05821f7dd70e5acaf7d78c0936d1319c662a3b18dd6e41080852dd283b0c0"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0008/metadata.json",
+      "bytes": 766,
+      "sha256": "425c0fb433f1843ad1c7766a008eea59cd7edf449d5821d767cf7401998fbb24"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0009/cam0.png",
+      "bytes": 1267361,
+      "sha256": "137f552ce335df1febaeec7cf8f3b04e5e8b376a47ef26a8930a8e9d9634f24f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0009/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "599c92432a82c9b89657d615fa578c6243b338961f5b59c51ef4c572c4f6398b"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0009/metadata.json",
+      "bytes": 767,
+      "sha256": "54c6ae22fa66049f32a9f4245fd65c687171d0d4f4a7f7114d534a0db04012ec"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0010/cam0.png",
+      "bytes": 1253498,
+      "sha256": "884592d3c2db7d3f6c491b51b6aa9ba7703e229c0545b672cd5fcb39efc599e4"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0010/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "393abc97efe7516e7c5fd74c65bf19149a00562b73d8ec3ccdc1690f676df17f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0010/metadata.json",
+      "bytes": 767,
+      "sha256": "440546bf733a875d528123d0f046139ac95858bca9bf1b71cd7a0832c1366948"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0011/cam0.png",
+      "bytes": 1180129,
+      "sha256": "1a71a952f61d5afffe387cdbd7701b2fb1ba99e395b5f88865b99ca71e2b0008"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0011/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "32f56f16accba02ed47abbf02d1c3361a4fa528a96b77e215a432b8641e82ee9"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0011/metadata.json",
+      "bytes": 766,
+      "sha256": "931b3d6b1008fceda972124d9fb35c5781344c89392d166752595e95eb7b7fd4"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0012/cam0.png",
+      "bytes": 1260243,
+      "sha256": "20a2b03fc4e44fe227174e188781ae6d56f1e465d2bccccf1ddbb6ee8a40a35a"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0012/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "53169742978078757d4f304ae13598114576289b25b2c8727c9896c0376d4565"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0012/metadata.json",
+      "bytes": 767,
+      "sha256": "40440c2ef286417deba36552cd770224de109bd5e1175468530c84ae5446fdae"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0013/cam0.png",
+      "bytes": 1264474,
+      "sha256": "190bd5712e42ccbd12bb8d1ee75effe4e8a6b985b2115336eed8a6ceff758498"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0013/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "a4bf3b2f9542cf476aa3375a75b9190c779a9c7ca2827b625532977f7804db86"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0013/metadata.json",
+      "bytes": 767,
+      "sha256": "c01e27b1956642f227a8ed6331c5716ca4fad1eac2cf1315664b140b25767804"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0014/cam0.png",
+      "bytes": 1197722,
+      "sha256": "0f8daa75cf5e14d0d36a7518ffbdfa0bde750583de31d7b745b405d239a027b6"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0014/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "6aa913f1c5d36564792b9733cc3d00e3cbbb8bdb99ee5bfb89bc14c89a2c1e7e"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0014/metadata.json",
+      "bytes": 767,
+      "sha256": "463638da698d8ec90bb08683a33193a3db2d24d45e82eacefa8062480fd8b158"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0015/cam0.png",
+      "bytes": 1068486,
+      "sha256": "93b1224a0176cefc767c9d0134be741e1d07467eaa79417eb85b1cb9cd8dc8b3"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0015/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "6d36b82cfdc491e360af1cb2a31a2d215ad4b2ccda49b2012ea56dd2e23c6abe"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0015/metadata.json",
+      "bytes": 767,
+      "sha256": "c38ddf48dcc71574bfe1210b6d8b5ecddcd2f5a9d5506f70f96426668ba78b41"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0016/cam0.png",
+      "bytes": 1242190,
+      "sha256": "c6eee711590a5c07d8538f67000445033ef60ca309f1681936ab2502ec4c29aa"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0016/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "3bd087e8c9eac17115e83620e912a36f7235ac6b172d9cc85b1e5dca92098cfc"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0016/metadata.json",
+      "bytes": 767,
+      "sha256": "0bf6d1e09d29bfb829fe40bbc6ca28c2eead690f3154b572eb2ee37f09692d9e"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0017/cam0.png",
+      "bytes": 1266284,
+      "sha256": "fb324e6770c1ca7196dfdf0429101ec1a46b55f205e3b3905707f5949eb1635f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0017/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "d563cf6493b5363a7123093cc3af0dcb2a00ab4336f06bae910942efe2954af5"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0017/metadata.json",
+      "bytes": 767,
+      "sha256": "9f7499cc961bd056f4b93f1c21cdfc382105e95c2d538502e9e0c73991b4454d"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0018/cam0.png",
+      "bytes": 1171166,
+      "sha256": "b778d919442ae9643d8479e466be13e4860ef515713c61569dd260fb4c3d73a3"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0018/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "23cd1cbf282377a3379f1a907d0f808076b9dc62384044ba5fd123996fefca06"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0018/metadata.json",
+      "bytes": 767,
+      "sha256": "97ae5b766f9d882722772e2564d7d526a4a589cd91e5a2cec5060f6b620aa769"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0019/cam0.png",
+      "bytes": 1176023,
+      "sha256": "04262b31b5f8449516f6304ba1d122834339b3761528a84662399e591ca2c0f1"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0019/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "56e4f7f7f471d97983c430e06bdbb827433a3bce278d928a4cfc7c4b326046b4"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0019/metadata.json",
+      "bytes": 766,
+      "sha256": "4f887185ad56a044eccf19100e10a8e57eb4dba304b6d227230fef39dd51ba1d"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0020/cam0.png",
+      "bytes": 1287579,
+      "sha256": "61e65079866fb05bb3bcecfe0096ecbf191601fec6cc3cc96c289d6570d22a7f"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0020/cam0.rgb565",
+      "bytes": 1843200,
+      "sha256": "f698fb1eff1efc22bbbf28e30bac5297e42e9553a45843fad88cf1ae677baec2"
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0020/metadata.json",
+      "bytes": 767,
+      "sha256": "c783c7648b16e0dda93549cd2f262e12b37b8e761ab225174b4bd8aaea381d44"
+    }
+  ],
+  "images": [
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0001/cam0.png",
+      "shot": "shot_0001",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:54:56.939188+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 2,
+            "capture_tick": 898789224,
+            "frame_id": 2988,
+            "payload_crc": 2555469276
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0002/cam0.png",
+      "shot": "shot_0002",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:55:23.951381+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 3,
+            "capture_tick": 2907768961,
+            "frame_id": 3409,
+            "payload_crc": 1938018983
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0003/cam0.png",
+      "shot": "shot_0003",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:55:48.621307+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 4,
+            "capture_tick": 444882398,
+            "frame_id": 3687,
+            "payload_crc": 4020952863
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0004/cam0.png",
+      "shot": "shot_0004",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:56:14.011589+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 5,
+            "capture_tick": 2321497249,
+            "frame_id": 4001,
+            "payload_crc": 190281538
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0005/cam0.png",
+      "shot": "shot_0005",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:56:42.929662+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 6,
+            "capture_tick": 177771454,
+            "frame_id": 4537,
+            "payload_crc": 378928752
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0006/cam0.png",
+      "shot": "shot_0006",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:57:07.796454+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 7,
+            "capture_tick": 2024697034,
+            "frame_id": 4827,
+            "payload_crc": 455144675
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0007/cam0.png",
+      "shot": "shot_0007",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:57:38.512256+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 8,
+            "capture_tick": 13336322,
+            "frame_id": 5470,
+            "payload_crc": 2228681247
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0008/cam0.png",
+      "shot": "shot_0008",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:58:11.193729+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 9,
+            "capture_tick": 2439204458,
+            "frame_id": 6228,
+            "payload_crc": 3951740088
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0009/cam0.png",
+      "shot": "shot_0009",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:58:38.142013+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 10,
+            "capture_tick": 145794892,
+            "frame_id": 6643,
+            "payload_crc": 3674339048
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0010/cam0.png",
+      "shot": "shot_0010",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:59:04.542694+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 11,
+            "capture_tick": 2095396259,
+            "frame_id": 7016,
+            "payload_crc": 362037223
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0011/cam0.png",
+      "shot": "shot_0011",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T11:59:39.896037+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 12,
+            "capture_tick": 432885591,
+            "frame_id": 7941,
+            "payload_crc": 3720478818
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0012/cam0.png",
+      "shot": "shot_0012",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:00:09.183075+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 13,
+            "capture_tick": 2607631281,
+            "frame_id": 8496,
+            "payload_crc": 1999272131
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0013/cam0.png",
+      "shot": "shot_0013",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:00:35.011845+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 14,
+            "capture_tick": 231338931,
+            "frame_id": 8844,
+            "payload_crc": 2389600204
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0014/cam0.png",
+      "shot": "shot_0014",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:01:37.876547+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 15,
+            "capture_tick": 603786460,
+            "frame_id": 11414,
+            "payload_crc": 2987487846
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0015/cam0.png",
+      "shot": "shot_0015",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:04:12.826596+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 16,
+            "capture_tick": 3520952782,
+            "frame_id": 19513,
+            "payload_crc": 2982554516
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0016/cam0.png",
+      "shot": "shot_0016",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:04:47.731004+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 17,
+            "capture_tick": 1808959762,
+            "frame_id": 20398,
+            "payload_crc": 1111845165
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0017/cam0.png",
+      "shot": "shot_0017",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:05:21.060616+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 18,
+            "capture_tick": 4285547229,
+            "frame_id": 21197,
+            "payload_crc": 3860677018
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0018/cam0.png",
+      "shot": "shot_0018",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:05:48.625294+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 19,
+            "capture_tick": 2036671739,
+            "frame_id": 21648,
+            "payload_crc": 2058428171
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C0",
+      "path": "extracted/C0/20261029_115431/shot_0019/cam0.png",
+      "shot": "shot_0019",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:06:17.499705+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=camera port 0",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 20,
+            "capture_tick": 4185439286,
+            "frame_id": 22182,
+            "payload_crc": 214507024
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0001/cam0.png",
+      "shot": "shot_0001",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:24:20.416413+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 2,
+            "capture_tick": 3807100443,
+            "frame_id": 5339,
+            "payload_crc": 2508643966
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0002/cam0.png",
+      "shot": "shot_0002",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:27:22.085844+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 3,
+            "capture_tick": 112380395,
+            "frame_id": 15037,
+            "payload_crc": 1074584455
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0003/cam0.png",
+      "shot": "shot_0003",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:27:56.180612+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 4,
+            "capture_tick": 2643397853,
+            "frame_id": 15880,
+            "payload_crc": 3622468578
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0004/cam0.png",
+      "shot": "shot_0004",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:28:16.786575+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 5,
+            "capture_tick": 4179822019,
+            "frame_id": 15919,
+            "payload_crc": 2017832063
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0005/cam0.png",
+      "shot": "shot_0005",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:28:54.469496+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 6,
+            "capture_tick": 2671943138,
+            "frame_id": 16969,
+            "payload_crc": 2434214585
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0006/cam0.png",
+      "shot": "shot_0006",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:29:15.170934+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 7,
+            "capture_tick": 4214552696,
+            "frame_id": 17013,
+            "payload_crc": 2251150391
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0007/cam0.png",
+      "shot": "shot_0007",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:30:03.241130+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 8,
+            "capture_tick": 3489730830,
+            "frame_id": 18696,
+            "payload_crc": 2168749467
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0008/cam0.png",
+      "shot": "shot_0008",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:30:28.302066+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 9,
+            "capture_tick": 1060244970,
+            "frame_id": 19001,
+            "payload_crc": 1451223885
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0009/cam0.png",
+      "shot": "shot_0009",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:30:53.292256+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 10,
+            "capture_tick": 2907170591,
+            "frame_id": 19291,
+            "payload_crc": 3625068513
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0010/cam0.png",
+      "shot": "shot_0010",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:32:31.044335+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 11,
+            "capture_tick": 1586181177,
+            "frame_id": 23964,
+            "payload_crc": 1040548894
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0011/cam0.png",
+      "shot": "shot_0011",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:33:16.909527+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 12,
+            "capture_tick": 695593963,
+            "frame_id": 25513,
+            "payload_crc": 1084232381
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0012/cam0.png",
+      "shot": "shot_0012",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:33:53.064745+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 13,
+            "capture_tick": 3373821741,
+            "frame_id": 26475,
+            "payload_crc": 2082603271
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0013/cam0.png",
+      "shot": "shot_0013",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:34:20.577261+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 14,
+            "capture_tick": 1127420397,
+            "frame_id": 26928,
+            "payload_crc": 3436652234
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0014/cam0.png",
+      "shot": "shot_0014",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:34:59.228703+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 15,
+            "capture_tick": 3988732673,
+            "frame_id": 28038,
+            "payload_crc": 2436800961
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0015/cam0.png",
+      "shot": "shot_0015",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:35:26.839138+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 16,
+            "capture_tick": 1741094299,
+            "frame_id": 28490,
+            "payload_crc": 3995956486
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0016/cam0.png",
+      "shot": "shot_0016",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:35:59.952109+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 17,
+            "capture_tick": 4199126060,
+            "frame_id": 29274,
+            "payload_crc": 1029413332
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0017/cam0.png",
+      "shot": "shot_0017",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:36:37.073725+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 18,
+            "capture_tick": 2662795331,
+            "frame_id": 30301,
+            "payload_crc": 3574999103
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0018/cam0.png",
+      "shot": "shot_0018",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:37:20.424485+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 19,
+            "capture_tick": 1595309085,
+            "frame_id": 31707,
+            "payload_crc": 2087206732
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0019/cam0.png",
+      "shot": "shot_0019",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:37:50.044975+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 20,
+            "capture_tick": 3793558943,
+            "frame_id": 32281,
+            "payload_crc": 344033098
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    },
+    {
+      "side": "C1",
+      "path": "extracted/C1/20261029_122357/shot_0020/cam0.png",
+      "shot": "shot_0020",
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "png_ihdr_bit_depth": 8,
+      "png_ihdr_color_type": 2,
+      "metadata": {
+        "saved_at": "2026-10-29T12:38:18.566638+08:00",
+        "format": "RGB565 little endian, expanded to RGB8 PNG without resizing",
+        "source": "OV5640 RAW8 1280x720 (sensor rows 0-719 of the 728-row window, 2x2 subsampled, no ISP scaling) -> FPGA white balance/demosaic/colour; same image as the 60 fps direct path",
+        "synchronization": "independent next-frame freeze; NOT exposure-synchronized",
+        "camera_labels": "cam0=FPGA DDR channel 0; physical camera set by Top.v RAW_CAMERA (camera port 1 since the 2026-10-29 rebuild)",
+        "frames": [
+          {
+            "camera": 0,
+            "flags": 3,
+            "width": 1280,
+            "height": 720,
+            "sequence": 21,
+            "capture_tick": 1618906929,
+            "frame_id": 32792,
+            "payload_crc": 4050665587
+          }
+        ]
+      },
+      "rgb565_decode_exact": true,
+      "rgb565_decode_max_abs": 0
+    }
+  ]
+}

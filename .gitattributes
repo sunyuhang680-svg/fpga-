@@ -1,0 +1,4 @@
+ziguanng/stereo_integration/runs/20261030_claude_live_v5d/full_pnr_v1/place_route/Top_pnr.adf filter=lfs diff=lfs merge=lfs -text
+ziguanng/stereo_integration/runs/20261030_claude_live_v5d/full_pnr_v1/report_timing/rtr.db filter=lfs diff=lfs merge=lfs -text
+ziguanng/stereo_integration/runs/20261030_claude_live_v5d/full_pnr_v1/synthesize/snr.db filter=lfs diff=lfs merge=lfs -text
+ziguanng/stereo_integration/runs/20261030_claude_live_v5d/full_pnr_v1/synthesize/Top_syn.vm filter=lfs diff=lfs merge=lfs -text

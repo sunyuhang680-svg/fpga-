@@ -1,0 +1,12 @@
+# Restore only the existing upper UI buttons; original testing60 FDC unchanged.
+# Existing Mini Base USER_BUTTON1=C23 / USER_BUTTON2=B22; reset C22 remains untouched.
+define_attribute {p:key_mode_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_mode_n} {PAP_IO_LOC} {C23}
+define_attribute {p:key_mode_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_mode_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_mode_n} {PAP_IO_NONE} {TRUE}
+define_attribute {p:key_menu_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_menu_n} {PAP_IO_LOC} {B22}
+define_attribute {p:key_menu_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_menu_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_menu_n} {PAP_IO_NONE} {TRUE}

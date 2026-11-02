@@ -1,0 +1,14 @@
+{
+  "width": 640,
+  "height": 720,
+  "fx": 555.5068230081748,
+  "fy": 1104.0525994509114,
+  "cx": 338.004493592007,
+  "cy": 356.12788740025934,
+  "k1": 0.12997407751206372,
+  "k2": -0.7316162481663986,
+  "p1": -0.009012184473184593,
+  "p2": -0.00016768183907300922,
+  "source": "new RAW8 C0; independent mono session; 9x6 inner corners; 26mm user-confirmed square; held-out excluded; stereo invalid; x1280=2*x640, y1280=y640; even-x decimation after CCM, no half-pixel offset",
+  "reprojection_rms": 0.7091208151706994
+}

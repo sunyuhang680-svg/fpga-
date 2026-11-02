@@ -1,0 +1,10 @@
+{
+  "calibration": "D:\\\u865a\u62dfC\u76d8\\ziguanng\\stereo_integration\\runs\\20261029_123023_340b6a9b\\raw_calibration_candidate_v1",
+  "mono_valid": true,
+  "stereo_valid": false,
+  "focus": "same focus/mount as these new capture sessions required",
+  "not_board_accepted": true,
+  "geometry_binding": "D:\\\u865a\u62dfC\u76d8\\ziguanng\\stereo_integration\\runs\\20261029_123023_340b6a9b\\raw_calibration_candidate_v1\\geometry_binding.json",
+  "crop_certificate": "D:\\\u865a\u62dfC\u76d8\\ziguanng\\stereo_integration\\runs\\20261029_123023_340b6a9b\\raw_calibration_candidate_v1\\crop_certificate.json",
+  "source": "C0/C1 archive identity and metadata bound; independent board poses, NO R/T or metric authority."
+}

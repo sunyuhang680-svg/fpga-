@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "cases": 162,
+  "accepted_poses": 125,
+  "full_frame_scans": 8,
+  "full_pixels_verified": 3686400,
+  "scope": "standalone crop candidate and proof only; not board-integrated; no measured frame rate",
+  "source_sha256": {
+    "rtl\\pose_auto_crop.v": "bb446464c89854026d9e6bec8ff917e03bcd0abe29abe456860a551c04cc646d",
+    "sim\\tb_pose_auto_crop.sv": "f805e0be6c72773299310787c46cc16018fa10fa35adaa4f7ba223d7310abd70"
+  },
+  "summary": [
+    "# ALL_PASS_AUTO_CROP cases=162 checks=162 max_cycles=1928"
+  ]
+}

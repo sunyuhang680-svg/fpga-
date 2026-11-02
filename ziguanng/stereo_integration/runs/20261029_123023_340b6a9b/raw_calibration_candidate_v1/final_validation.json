@@ -1,0 +1,45 @@
+{
+  "status": "PASSED_SCOPED_OFFLINE_CANDIDATE",
+  "stereo_valid": false,
+  "production_modified": false,
+  "checks": [
+    "all candidate JSON strictly parsed; all Python AST parsed",
+    "640 even-x transform exact; unchanged fy/cy/D",
+    "cfg/ki/hex exactly agree",
+    "parameter SHA binds certificate, geometry and previews",
+    "tested crop certificates equal delivered certificates",
+    "actual tested RTL and bench SHA unchanged",
+    "162 crop cases, 3686400 full scan pixels passed",
+    "39 PNG/RGB565/CRC and117 source file hashes and2 original archive SHA passed in delivery_audit"
+  ],
+  "key_artifact_sha256": {
+    "left_1280x720.json": "8db7bc357e3509772468b500fcea6fb0cca433ddacebe8a0ea28fb68106e6b9d",
+    "right_1280x720.json": "f8baee054f5a97b954f1f17336207696ac9e0f4f020638c91dfc0eeb89dfc66b",
+    "left_640x720.json": "1dff3ef5430a63e323a73f018328499a4b1cec519d5209c9b691d503c796e3b5",
+    "right_640x720.json": "00985322099714bdd0958586338ea2c3021f4696b7682ca461eba60b43c13e34",
+    "stereo_calibration_constants.v": "2e2fa8b3dabfdbee47e7e8f766e622ff7e0204dc65aa6705c68b8e732f5df92c",
+    "left_config.hex": "02431a7f263f7ffe175fe2df7f90edfff2014091bfa4a3ada2b03e83ecd1e1a3",
+    "right_config.hex": "2fd4f8d5bf94ef8829ddaa3a54988537d346e9cb4167107573edfada96f9c473",
+    "crop_certificate.json": "9c6ba7dbb7ad910fa1da434f17c8d837d590ab2e9743e4459750c67c5815cf01",
+    "geometry_binding.json": "aa418b0996bdd9108ac7122f9266b6672a52a03fe1ccc52d7a2d424227708413",
+    "mono_report.json": "1b1123bc81b2a66ef83666c0591337a1751ab7638e3cad5c463308cf6bea5fa1",
+    "pose_crop_regression/status.json": "a7fe783dd9460d47327fea2773896643d95ed4ba16844bbf572faffd0bcce282",
+    "pose_crop_regression/geometry.json": "a5469551e8867d236e8f1fd20b41487a489be8d4b53e44f97e311d17381535fa",
+    "pose_crop_regression/vectors.hex": "34d4542ab6fa5eebc2ea68866dfb0382bb0fe3c3ba3c361af1bebafb00be0fd4",
+    "test_new_pose_crop.py": "6fb0a3f63dd1a23a061d48af425a4543de19da9fda3e4744154adb7acbbed59c",
+    "reference_preview_binding.json": "dfbba3fa69f7a33b724e5e13a23c2450b5f0b1d28b9725280675899380149d5a",
+    "delivery_audit.json": "8ef1beefcec0bf1f584ce8a3209fd6d8064708d5159db5b83ef2267ce40d2b72",
+    "README.md": "264a54585b9f56168a81ea2d8b6bbf7d69310939d6a67f3169ec13e32efe4033"
+  },
+  "qualification": "Independent mono undistortion candidate only; root final acceptance and production integration pending. No stereo R/T, board acceptance, precision or measured FPS claim.",
+  "math_dependency_sha256": {
+    "D:\\虚拟C盘\\ziguanng\\stereo_integration\\scripts\\project_common.py": "8ad1dd88655e1dbcafc3cd47a38a0ed47a6146d00db21961154c293f70a03769",
+    "D:\\虚拟C盘\\ziguanng\\stereo_integration\\scripts\\build_crop_certificate.py": "aec9c1e977d2b406ef42fda4c2943040657df5ebbf7d6b9c91b497061de8e305",
+    "D:\\虚拟C盘\\ziguanng\\stereo_integration\\scripts\\crop_geometry.py": "afd9836ddc8cca1300ac2401ccdc8e24f2a0cb50da05df18552247564aee0125",
+    "D:\\虚拟C盘\\ziguanng\\stereo_integration\\scripts\\test_pose.py": "84839c2a615ab50bb71be06971c1148c9a450fdc2b9f2fbef65a371921a90bcb",
+    "D:\\topic2_workspace\\topic2_undistort\\undistort\\model.py": "cfc24c9d958e6d71017b5fc50199e89f85f7acb5e1ab9ef3f8e401f68dd7e54b",
+    "D:\\topic2_workspace\\topic2_undistort\\undistort\\geometry_v2.py": "c3161d291fed7bb8e0cf5e8644c6783b2ffae52afac6d82529342eff6e4032a9",
+    "D:\\topic2_workspace\\topic2_undistort\\undistort\\processing_v2.py": "5e75030b7b80cbedcdf7b6227ec9a5e632158ca2404f37ae0c6bb3469eb68264",
+    "D:\\topic2_workspace\\topic2_undistort\\undistort\\enhancement_v2.py": "3346d4fbc6f0daab410a86b34408e3aaa4d7d6bfa47c1265c0b4afb164dc838c"
+  }
+}
